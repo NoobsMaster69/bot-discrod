@@ -2,9 +2,9 @@ module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
 	adminId: "1122881470810304645", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "MTEyMjg4MTQ3MDgxMDMwNDY0NQ.GFemQD.3cPiycru58ITkk43rR268WJ18r-i5aMgvJOhMs", //- Bot's Token
+	token: process.env.token || "MTEyMjg4MTQ3MDgxMDMwNDY0NQ.GFXaUe.nWD6s6x6MpJwh4Y_-WHUofIoZwZM7ZSi_DcVPE", //- Bot's Token
 	clientId: process.env.clientId || "1122881470810304645", //- ID of the bot
-	clientSecret: process.env.clientSecret || "kCu3pCUlzOgBznoRYvlhBoGXt76hquKz", //- Client Secret of the bot
+	clientSecret: process.env.clientSecret || "xvd-ByBT-ER2nI_UwIdEnGUYTJIR8dr0", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
@@ -20,7 +20,7 @@ module.exports = {
 	autoLeave: false, //- When set to true, the bot will automatically leave when no one is in the voice channel (can be combined with 24/7 to always be in voice channel until everyone leaves; if 24/7 is on disconnectTime will add a disconnect delay after everyone leaves.)
 	debug: false, //- Debug mode
 	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
-	website: "http://localhost:4200", //- without the / at the end
+	website: "http://localhost", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
