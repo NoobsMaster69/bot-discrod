@@ -17,7 +17,7 @@ module.exports = {
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", // URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", // Color of most embeds | Custom Hex value are supported. I.e: "#36393F"
   Permissions: 2205281600, // Bot Inviting Permissions
-  Website: process.env.Website || "https://example.com", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
+  Website: process.env.Website || "0.0.0.0", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
   // If you get invalid oauth, make sure on the discord developer page you set the oauth url to something like: https://example.com/api/callback.
 
   Presence: {
@@ -39,7 +39,7 @@ module.exports = {
   },
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", // Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", // Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "-", // Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "-", // Spotify Client Secret
   },
 };
